@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menu.RunningMenu">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btnRunning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="달리기"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/btnPlank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="플랭크"></RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/StartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="시작"></Button>
+
+    <Button
+        android:id="@+id/ExitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="돌아가기"></Button>
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="bottom|center"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="#000000"></TextView>
+</LinearLayout>

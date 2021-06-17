@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='과제2_60181641_박지수'

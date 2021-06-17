@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnStrech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 스트레칭" />
+
+
+    <Button
+        android:id="@+id/btnRunning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. 달리기" />
+    <Button
+        android:id="@+id/btnWeightPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. 몸무게 사진" />
+    <Button
+        android:id="@+id/btnSportInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. 운동 정보" />
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. 나가기" />
+
+</LinearLayout>
